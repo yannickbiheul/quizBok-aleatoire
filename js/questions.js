@@ -44,9 +44,62 @@ const question5 = {
 }
 
 let questions = [question1, question2, question3, question4, question5];
-const blocQuestion1 = document.querySelector("#blocQuestion1");
-const blocQuestion2 = document.querySelector("#blocQuestion2");
-const blocQuestion3 = document.querySelector("#blocQuestion3");
-const blocQuestion4 = document.querySelector("#blocQuestion4");
-const blocQuestion5 = document.querySelector("#blocQuestion5");
+
+const blocQuestion1 = {
+    titre: document.querySelector("#titreQuestion1"),
+    reponse1: document.querySelector("#labelq1r1"),
+    reponse2: document.querySelector("#labelq1r2"),
+    reponse3: document.querySelector("#labelq1r3"),
+    reponse4: document.querySelector("#labelq1r4")
+}
+
+const blocQuestion2 = {
+    titre: document.querySelector("#titreQuestion2"),
+    reponse1: document.querySelector("#labelq2r1"),
+    reponse2: document.querySelector("#labelq2r2"),
+    reponse3: document.querySelector("#labelq2r3"),
+    reponse4: document.querySelector("#labelq2r4")
+}
+
+const blocQuestion3 = {
+    titre: document.querySelector("#titreQuestion3"),
+    reponse1: document.querySelector("#labelq3r1"),
+    reponse2: document.querySelector("#labelq3r2"),
+    reponse3: document.querySelector("#labelq3r3"),
+    reponse4: document.querySelector("#labelq3r4")
+}
+
+const blocQuestion4 = {
+    titre: document.querySelector("#titreQuestion4"),
+    reponse1: document.querySelector("#labelq4r1"),
+    reponse2: document.querySelector("#labelq4r2"),
+    reponse3: document.querySelector("#labelq4r3"),
+    reponse4: document.querySelector("#labelq4r4")
+}
+
+const blocQuestion5 = {
+    titre: document.querySelector("#titreQuestion5"),
+    reponse1: document.querySelector("#labelq5r1"),
+    reponse2: document.querySelector("#labelq5r2"),
+    reponse3: document.querySelector("#labelq5r3"),
+    reponse4: document.querySelector("#labelq5r4")
+}
+
 let blocsQuestions = [blocQuestion1, blocQuestion2, blocQuestion3, blocQuestion4, blocQuestion5];
+
+let ib = 0;
+let randoms = [];
+let random1 = Math.floor(Math.random() * questions.length);
+randoms.push(random1);
+console.log(randoms);
+
+// for (let i = 0; i < questions.length; i++) {
+//     blocsQuestions[ib].titre.innerText = questions[random].question;
+//     blocsQuestions[ib].reponse1.innerText = questions[random].reponse1;
+//     blocsQuestions[ib].reponse2.innerText = questions[random].reponse2;
+//     blocsQuestions[ib].reponse3.innerText = questions[random].reponse3;
+//     blocsQuestions[ib].reponse4.innerText = questions[random].reponse4;
+//     ib++;
+//     console.log(randoms);
+// }
+

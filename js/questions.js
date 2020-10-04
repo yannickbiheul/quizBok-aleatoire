@@ -88,10 +88,6 @@ const blocQuestion5 = {
 let blocsQuestions = [blocQuestion1, blocQuestion2, blocQuestion3, blocQuestion4, blocQuestion5];
 
 let ib = 0;
-let randoms = [];
-let random1 = Math.floor(Math.random() * questions.length);
-randoms.push(random1);
-console.log(randoms);
 
 // for (let i = 0; i < questions.length; i++) {
 //     blocsQuestions[ib].titre.innerText = questions[random].question;

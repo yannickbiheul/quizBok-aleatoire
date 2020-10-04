@@ -99,3 +99,18 @@ let ib = 0;
 //     console.log(randoms);
 // }
 
+let randoms = [];
+
+let random1 = Math.floor(Math.random() * questions.length);
+console.log(random1);
+randoms.push(random1);
+console.log(randoms);
+
+let random2 = Math.floor(Math.random() * questions.length);
+console.log(random2);
+if (random2 !== randoms[0]) {
+    randoms.push(random2);
+} else {
+    random2 = Math.floor(Math.random() * questions.length);
+}
+console.log(randoms);

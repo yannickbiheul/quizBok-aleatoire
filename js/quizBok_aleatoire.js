@@ -11,28 +11,6 @@ const toutesLesQuestions = document.querySelectorAll(".blocQuestion");
 const boutonValider = document.querySelector("#boutonValider");
 let verifTableau = [];
 
-// GENERATION ALEATOIRE DES QUESTIONS
-
-// Tableau random
-
-let randoms = [];
-
-// Fonction tableau random
-
-function randomTab() {
-    for (let i = 0; i < blocsQuestions.length; i++) {
-        let random = Math.floor(Math.random() * questions.length);
-        while (randoms.includes(random)) {
-            random = Math.floor(Math.random() * questions.length);
-        }
-        randoms.push(random);
-        blocsQuestions[i] = questions[randoms[i]];
-    }
-    return randoms;
-}
-
-randomTab();
-
 
 
 form.addEventListener("submit", (e) => {

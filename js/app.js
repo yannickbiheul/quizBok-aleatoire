@@ -1,9 +1,20 @@
+                                                            /* ---------- VARIABLES ---------- */
+
+const form = document.querySelector(".form-quiz");
+let tableauResultats = [];
+const emojis = ["✔️", "🌟", "👀", "😭", "👎"];
+const titreResultat = document.querySelector("#titreResultat");
+const aideResultat = document.querySelector("#aideResultat");
+const noteResultat = document.querySelector("#noteResultat");
+const boutonValider = document.querySelector("#boutonValider");
+let verifTableau = [];
+
 // Tableau Random
 
 let randoms = [];
 
 
-/* ---------- GENERATION ALEATOIRE DES QUESTIONS ---------- */
+                                                            /* ---------- GENERATION ALEATOIRE DES QUESTIONS ---------- */
 
 function randomTab() {
 
@@ -26,3 +37,6 @@ function randomTab() {
 }
 
 randomTab();
+
+
+

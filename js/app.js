@@ -26,7 +26,7 @@ function randomTab() {
             random = Math.floor(Math.random() * questions.length);  // Génération d'un autre nombre aléatoire de 0 à nombre de questions
         }
         randoms.push(random);   // Ajout de la valeur "random" dans le tableau "randoms"
-        // 
+        // Remplissage des blocs Questions
         blocsQuestions[i].titre.innerText = questions[randoms[i]].question;
         blocsQuestions[i].reponse1.innerText = questions[randoms[i]].reponse1;
         blocsQuestions[i].reponse2.innerText = questions[randoms[i]].reponse2;

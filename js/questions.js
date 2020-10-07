@@ -58,7 +58,7 @@ const blocQuestion1 = {
     reponse1: document.querySelector("#labelq1r1"),
     reponse2: document.querySelector("#labelq1r2"),
     reponse3: document.querySelector("#labelq1r3"),
-    reponse4: document.querySelector("#labelq1r4")
+    reponse4: document.querySelector("#labelq1r4"),
 }
 
 const blocQuestion2 = {

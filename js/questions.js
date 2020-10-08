@@ -97,3 +97,6 @@ const blocQuestion5 = {
 
 let blocsQuestions = [blocQuestion1, blocQuestion2, blocQuestion3, blocQuestion4, blocQuestion5];
 
+
+                                                            /* ---------- INPUTS BLOCS QUESTIONS ---------- */
+

@@ -32,6 +32,12 @@ function randomTab() {
         blocsQuestions[i].reponse2.innerText = questions[randoms[i]].reponse2;
         blocsQuestions[i].reponse3.innerText = questions[randoms[i]].reponse3;
         blocsQuestions[i].reponse4.innerText = questions[randoms[i]].reponse4;
+        let inputReponses = [blocsQuestion[i].inputReponse1, blocsQuestion[i].inputReponse2, blocsQuestion[i].inputReponse3, blocsQuestion[i].inputReponse4];
+        for (let q = 0; q < inputReponses.length; q++) {
+            inputReponses[q].addEventListener("click", function() {
+                console.log("Vous avez cliqué !");
+            })
+        }
     }
     return randoms;
 }

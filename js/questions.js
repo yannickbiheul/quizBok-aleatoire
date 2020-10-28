@@ -56,9 +56,13 @@ let questions = [question1, question2, question3, question4, question5];
 const blocQuestion1 = {
     titre: document.querySelector("#titreQuestion1"),
     reponse1: document.querySelector("#labelq1r1"),
+    inputReponse1: document.querySelector("#q1r1"),
     reponse2: document.querySelector("#labelq1r2"),
+    inputReponse2: document.querySelector("#q1r2"),
     reponse3: document.querySelector("#labelq1r3"),
+    inputReponse1: document.querySelector("#q1r3"),
     reponse4: document.querySelector("#labelq1r4"),
+    inputReponse1: document.querySelector("#q1r4")
 }
 
 const blocQuestion2 = {

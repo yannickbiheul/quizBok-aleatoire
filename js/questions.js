@@ -68,33 +68,49 @@ const blocQuestion1 = {
 const blocQuestion2 = {
     titre: document.querySelector("#titreQuestion2"),
     reponse1: document.querySelector("#labelq2r1"),
+    inputReponse1: document.querySelector("#q2r1"),
     reponse2: document.querySelector("#labelq2r2"),
+    inputReponse1: document.querySelector("#q2r2"),
     reponse3: document.querySelector("#labelq2r3"),
-    reponse4: document.querySelector("#labelq2r4")
+    inputReponse1: document.querySelector("#q2r3"),
+    reponse4: document.querySelector("#labelq2r4"),
+    inputReponse1: document.querySelector("#q2r4")
 }
 
 const blocQuestion3 = {
     titre: document.querySelector("#titreQuestion3"),
     reponse1: document.querySelector("#labelq3r1"),
+    inputReponse1: document.querySelector("#q3r1"),
     reponse2: document.querySelector("#labelq3r2"),
+    inputReponse1: document.querySelector("#q3r2"),
     reponse3: document.querySelector("#labelq3r3"),
-    reponse4: document.querySelector("#labelq3r4")
+    inputReponse1: document.querySelector("#q3r3"),
+    reponse4: document.querySelector("#labelq3r4"),
+    inputReponse1: document.querySelector("#q3r4")
 }
 
 const blocQuestion4 = {
     titre: document.querySelector("#titreQuestion4"),
     reponse1: document.querySelector("#labelq4r1"),
+    inputReponse1: document.querySelector("#q4r1"),
     reponse2: document.querySelector("#labelq4r2"),
+    inputReponse1: document.querySelector("#q4r2"),
     reponse3: document.querySelector("#labelq4r3"),
-    reponse4: document.querySelector("#labelq4r4")
+    inputReponse1: document.querySelector("#q4r3"),
+    reponse4: document.querySelector("#labelq4r4"),
+    inputReponse1: document.querySelector("#q4r4")
 }
 
 const blocQuestion5 = {
     titre: document.querySelector("#titreQuestion5"),
     reponse1: document.querySelector("#labelq5r1"),
+    inputReponse1: document.querySelector("#q5r1"),
     reponse2: document.querySelector("#labelq5r2"),
+    inputReponse1: document.querySelector("#q5r2"),
     reponse3: document.querySelector("#labelq5r3"),
-    reponse4: document.querySelector("#labelq5r4")
+    inputReponse1: document.querySelector("#q5r3"),
+    reponse4: document.querySelector("#labelq5r4"),
+    inputReponse1: document.querySelector("#q5r4")
 }
 
 // Tableau Blocs Questions

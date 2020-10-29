@@ -13,7 +13,7 @@ let verifTableau = [];
 
 let randoms = [];
 
-console.log(blocsQuestions[0].inputReponse1);
+console.log(blocsQuestions[0].inputReponse1.value);
 
 
                                                             /* ---------- GENERATION ALEATOIRE DES QUESTIONS ---------- */

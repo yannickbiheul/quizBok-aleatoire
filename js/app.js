@@ -13,6 +13,7 @@ let verifTableau = [];
 
 let randoms = [];
 
+// console.log de l'input bloc question 1
 console.log(blocsQuestions[0].inputReponse1.value);
 
 
